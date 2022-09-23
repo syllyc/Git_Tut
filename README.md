@@ -5,16 +5,16 @@ Today:
 4. git status
 5. git init
 6. git log
-	git log -p -2
-	git log --author
-	git log --online
-	git log --graph
-	git log --pretty=oneline
-	git log --pretty=format
+   git log -p -2
+   git log --author
+   git log --online
+   git log --graph
+   git log --pretty=oneline
+   git log --pretty=format
 7. git diff
-	git diff --stage
+   git diff --stage
 8. git mv
-9. git rm
+9.  git rm
 10. .gitignore
 	/foldername
 	*.log
@@ -28,4 +28,8 @@ Today:
 14. git reset --hard HEAD [hash ID] // // 回退到指定hash ID 的版本
 15. git refolg  // 	
 16. git checkout [hash] --[filename]
-17. 
+17. git branch [name]
+    git checkout [branch name]
+    git checkout -b [branch name]
+	git branch [name] -d
+	git branch [name] -D
