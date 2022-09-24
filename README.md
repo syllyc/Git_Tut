@@ -45,3 +45,10 @@ Today:
     git add 
     git commit
 20. git merge branchnae --no-off
+    git merge branchnae --no-off --no-commit [branchname]
+    git merge branchnae --no-off --squash [branchname]
+    git merge --squash [branchname]
+    git reset --hard ORIG_HEAD
+21. git push origin main
+
+    
