@@ -7,10 +7,13 @@ Today:
 6. git log
    git log -p -2
    git log --author
-   git log --online
+   git log --oneline
    git log --graph
    git log --pretty=oneline
    git log --pretty=format
+   git log --oneline --graph
+   git log --oneline --graph --all
+   git log --oneline --graph -[number] 
 7. git diff
    git diff --stage
 8. git mv
@@ -33,3 +36,12 @@ Today:
     git checkout -b [branch name]
 	git branch [name] -d
 	git branch [name] -D
+18. git merge [branch name]
+19. conflict:
+    git merge [btanch name]
+    git status // check the reason of conflict
+    git merge --abort // 忽略合并
+    手动选择正确内容
+    git add 
+    git commit
+20. git merge branchnae --no-off
