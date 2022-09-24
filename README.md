@@ -50,5 +50,12 @@ Today:
     git merge --squash [branchname]
     git reset --hard ORIG_HEAD
 21. git push origin main
+22. git clone [remote repo adress]
+    git clone --no-checkout
+    git clone --bare [remote repo adress]
+22. git push 
+    git push -u origin
+    git push --set-upstream origin [branch name]
+    git push --all 
 
     
